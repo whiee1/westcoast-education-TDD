@@ -1,0 +1,168 @@
+{
+  "teachers": [
+    {
+      "firstName": "Pelle",
+      "lastName": "Svensson",
+      "socialSecurityNumber": "12345663",
+      "email": "pelle@gmail.com",
+      "phoneNumber": "070-1234567",
+      "areasOfExpertise": [
+        "Matematik",
+        "IT",
+        "Fysik"
+      ],
+      "id": 1
+    },
+    {
+      "firstName": "Jennie",
+      "lastName": "Gustavsson",
+      "socialSecurityNumber": "23414534",
+      "email": "jennie.ustavsson@live.com",
+      "phoneNumber": "079-088886",
+      "areasOfExpertise": [
+        "Engelska",
+        "Svenska",
+        "Persiska"
+      ],
+      "id": 2
+    },
+    {
+      "firstName": "Daniele",
+      "lastName": "Ohlsson",
+      "socialSecurityNumber": "187235932",
+      "email": "daniel@gmail.com",
+      "phoneNumber": "0701234567",
+      "areasOfExpertise": [
+        "Historia",
+        "Relion"
+      ],
+      "id": 3
+    },
+    {
+      "firstName": "Malin",
+      "lastName": "Malmgren",
+      "socialSecurityNumber": "765432",
+      "email": "malin.malmgren@hotmail.com",
+      "phoneNumber": "123455",
+      "areasOfExpertise": [
+        "data",
+        "pellets",
+        "wifi"
+      ],
+      "id": 4
+    },
+    {
+      "firstName": "terur ",
+      "lastName": "sey yrd",
+      "socialSecurityNumber": "34567",
+      "email": "zezru tyd",
+      "phoneNumber": "987654",
+      "areasOfExpertise": [
+        "fiska",
+        "magi",
+        "karate"
+      ],
+      "id": 5
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "socialSecurityNumber": "",
+      "email": "",
+      "phoneNumber": "",
+      "areasOfExpertise": [],
+      "id": 6
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "socialSecurityNumber": "",
+      "email": "",
+      "phoneNumber": "",
+      "areasOfExpertise": [],
+      "id": 7
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "socialSecurityNumber": "",
+      "email": "",
+      "phoneNumber": "",
+      "areasOfExpertise": [
+        "tet",
+        "w ryi "
+      ],
+      "id": 8
+    },
+    {
+      "firstName": "Olle",
+      "lastName": "sey yrd",
+      "socialSecurityNumber": "teryuty",
+      "email": "malin.malmgren@b3.se",
+      "phoneNumber": "63465788",
+      "areasOfExpertise": [
+        "tet",
+        "fsaf"
+      ],
+      "id": 9
+    }
+  ],
+  "courses": [
+    {
+      "courseNumber": 1,
+      "courseName": "Matematik 5",
+      "duration": "5 veckor",
+      "start": "20-02-2023",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at ex tempor, rutrum est quis, consequat nibh. Praesent lobortis diam at odio maximus, eu porta lorem aliquam. Donec pretium massa fringilla, ultrices purus at, dignissim lacus. Nunc vel consectetur ex. Donec blandit eget felis a pellentesque. Ut laoreet libero euismod massa aliquam mollis. Fusce a dui vitae dui fringilla volutpat porta eu augue.",
+      "id": 1
+    },
+    {
+      "courseNumber": 2,
+      "courseName": "Matematik 4",
+      "duration": "5 veckor",
+      "start": "09-05-2023",
+      "description": "Praesent lobortis diam at odio maximus, eu porta lorem aliquam. Donec pretium massa fringilla, ultrices purus at, dignissim lacus. Nunc vel consectetur ex. Donec blandit eget felis a pellentesque. Ut laoreet libero euismod massa aliquam mollis. Fusce a dui vitae dui fringilla volutpat porta eu augue.",
+      "id": 2
+    },
+    {
+      "courseNumber": "5",
+      "courseName": "kaffe",
+      "duration": "8 veckor",
+      "description": "vet inte",
+      "start": "nu",
+      "id": 3
+    },
+    {
+      "courseNumber": "",
+      "courseName": "",
+      "duration": "",
+      "description": "",
+      "start": "",
+      "id": 4
+    },
+    {
+      "courseNumber": "",
+      "courseName": "",
+      "duration": "",
+      "description": "",
+      "start": "",
+      "id": 5
+    },
+    {
+      "courseNumber": "5",
+      "courseName": "test",
+      "duration": "8 veckor",
+      "description": "vet inte",
+      "start": "test",
+      "id": 6
+    },
+    {
+      "courseNumber": "",
+      "courseName": "",
+      "duration": "",
+      "description": "",
+      "start": "",
+      "id": 7
+    }
+  ]
+}

@@ -1,8 +1,18 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import App from "./App";
+import { screen, render } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe("App component", () => {
+  const setup = () => render(<App />);
+
+  describe("navigating to correct component", () => {
+    test('Navigate to "Kurser" on click', async () => {
+      setup();
+      const user = userEvent.setup();
+      await user.click(screen.getByText("Kurser"));
+      expect(
+        screen.getByRole("heading", { name: "Kurser" })
+      ).toBeInTheDocument();
+    });
+  });
 });
